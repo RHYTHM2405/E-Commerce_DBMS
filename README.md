@@ -1,16 +1,65 @@
-ecommerce
-=========
+# E-Commerce Web Application
 
+## 📋 Overview
+A feature-rich **PHP-based e-commerce web application** designed to address essential functionalities for a digital marketplace. It includes secure user authentication, product management, shopping cart features, and order processing, all while leveraging MySQL for robust database management.
 
-A PHP e-commerce web application.
+## 🚀 Features
+- **User Authentication**: Secure login and registration with password hashing.
+- **Product Management**: Add, update, and manage product details.
+- **Shopping Cart**: Dynamic cart with real-time item management.
+- **Order Processing**: Smooth and efficient order workflows.
+- **Admin Panel**: Secure interface for managing products and orders.
+- **Payment Option**: Supports **Cash on Delivery (COD)**.
 
-1. To set this web application, make sure PHP and PHPMyAdmin is installed on your server.
-2. Next open PHPMyAdmin, create a database and import the bolt.sql file. This will generate tables in your database on your server.
-3. Upload all files on your server except for bolt.sql or bolt-new-phpmyadmin.sql! I have provided two database files for an old and new version of PHPMyAdmin respectively.
-4. The admin user which I have made has an email id sjobs@apple.com / admin@admin.com and the password is steve. (Please confirm this in db or create one manually.
-5. Open config.php file and add the details of your PHPMyAdmin's id and password to access the database. Now re-upload this file to the server.
-6. Once this is done, go to the url of your website and it should be up and running.
+## 🛠️ Requirements
+- PHP and MySQL installed on the server.
+- PHPMyAdmin for database management.
 
-Enjoy!
+## ⚙️ Setup Instructions
+1. **Database Setup**:
+   - Open PHPMyAdmin and create a new database.
+   - Import the `bolt.sql` file (for older PHPMyAdmin versions) or `bolt-new-phpmyadmin.sql` (for newer versions) to set up the required tables.
 
-Currently only COD (Cash on Delivery), has been implemented. Working on email delivery on purchase and payment gateway. Stay tuned for the updates.
+2. **Server Deployment**:
+   - Upload all project files to your server, excluding the SQL files.
+   - Open the `config.php` file and update it with your database credentials (username and password).
+   - Re-upload the updated `config.php` file to the server.
+
+3. **Admin User**:
+   - Default admin account credentials:
+     - Email: `sjobs@apple.com` or `admin@admin.com`
+     - Password: `steve`
+   - Verify these credentials in the database or create a new admin user manually.
+
+4. **Run the Application**:
+   - Access the application through your server’s URL. The web application should now be operational.
+
+## 📌 Current Status
+### Implemented
+- Core e-commerce functionalities.
+- Secure user authentication and admin interface.
+- Responsive and user-friendly design.
+
+### In Progress
+- Integration of additional payment gateways.
+- Implementation of email notifications for purchases.
+
+## 💻 Technologies Used
+- **Frontend**: HTML, CSS, JavaScript, jQuery.
+- **Backend**: PHP.
+- **Database**: MySQL.
+
+## 🔮 Future Enhancements
+- Adding support for payment gateways like PayPal and Stripe.
+- Implementing personalized email notifications for order confirmation and updates.
+- User review and rating system.
+- AI-based personalized product recommendations.
+
+## 🤝 Contributors
+- **Yatharth Verma (B22CS064)**: User Management and Product Management modules.
+- **Rhythm Baghel (B22CS042)**: Shopping Cart, Order Processing, and Product Management.
+- **Souvik Maji (B22CS089)**: Database configuration, Admin Panel, and Shopping Cart.
+
+For more details and source code, visit the [GitHub Repository](https://github.com/RHYTHM2405/E-Commerce_DBMS).
+
+---
